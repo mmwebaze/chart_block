@@ -1,0 +1,13 @@
+chart_block_highcharts:
+  version: VERSION
+  css:
+    theme:
+      css/dhis.css: {}
+  js:
+    js/highcharts.js: {}
+    js/series-label.js: {}
+    js/chart_block.js: {}
+  dependencies:
+      - core/jquery
+      - core/jquery.once
+      - core/drupal

@@ -1,0 +1,8 @@
+services:
+  chart_block_service:
+    class: Drupal\chart_block\Service\ChartBlockService
+    arguments: ['@entity_type.manager']
+
+  plugin.manager.chart_block:
+    class: Drupal\chart_block\Plugin\Content\ContentTypeManager
+    parent: default_plugin_manager

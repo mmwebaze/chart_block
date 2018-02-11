@@ -1,0 +1,5 @@
+name: Chart block
+type: module
+description: Module for visualization of data as a block
+core: 8.x
+package: charts
